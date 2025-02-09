@@ -8,7 +8,7 @@ const Navbar = () => {
                         <img 
                             src="/create-account.png" 
                             alt="Company Logo" 
-                            className="h-12 w-auto" 
+                            className="h-12 w-12" 
                         />
                     </div>
 
