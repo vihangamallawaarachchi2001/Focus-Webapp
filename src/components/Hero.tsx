@@ -1,6 +1,6 @@
 const Hero = () => {
     return (
-      <section className="bg-transparent py-16 md:py-24">
+      <section className="bg-transparent py-16 md:py-24" id="download">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center md:text-left grid md:grid-cols-2 gap-12 items-center">
             {/* Text Content */}
@@ -16,13 +16,13 @@ const Hero = () => {
               <div className="flex flex-col sm:flex-row gap-4 mt-8">
                 <button 
                   type="button" 
-                  className="bg-[#a47ccf] text-white px-8 py-3 rounded-lg font-medium hover:bg-indigo-700 transition-colors shadow-sm"
+                  className="bg-[#a47ccf] text-white px-8 py-3 rounded-lg font-medium hover:bg-[#825bac] transition-colors shadow-sm"
                 >
                   Download for Android
                 </button>
                 <button 
                   type="button" 
-                  className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-medium hover:border-indigo-400 hover:text-indigo-700 transition-colors"
+                  className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-medium hover:border-[#825bac] hover:text-[#825bac] transition-colors"
                 >
                   iOS Coming Soon
                 </button>

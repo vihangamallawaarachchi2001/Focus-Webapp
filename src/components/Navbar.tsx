@@ -27,12 +27,6 @@ const Navbar = () => {
                             How to Use
                         </a>
                         <a 
-                            href="#why-choose-us" 
-                            className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors"
-                        >
-                            Why Choose Us
-                        </a>
-                        <a 
                             href="#download" 
                             className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors"
                         >
